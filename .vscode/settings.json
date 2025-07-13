@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "[typescript][typescriptreact][javascript][javascriptreact][css][json][jsonc][vue]": {
+        "editor.defaultFormatter": "biomejs.biome",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.biome": "explicit",
+            "source.organizeImports.biome": "explicit"
+        },
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "biome.requireConfiguration": true
+}
